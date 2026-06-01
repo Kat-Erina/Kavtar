@@ -1,0 +1,16 @@
+{
+    "hero":{
+        "title":"KAVTAR",
+        "subtitle":"DEVELOPMENT",
+        "desc":"Crafting multi-functional spaces where heritage meets modern living",
+        "since":"since 2025",
+        "contact":"contact"
+    },
+    "corePillars":{
+
+    },
+    "contact":{
+        "contact":"Contact Us",
+        "address":"36 Khetagurovi St, Tbilisi, Georgia"
+    }
+}
