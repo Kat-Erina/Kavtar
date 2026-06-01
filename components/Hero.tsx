@@ -21,6 +21,7 @@ const t=useTranslations('hero');
         <button className='text-white px-6.5 py-4 bg-blue text-xl mt-10 rounded-full cursor-pointer'>{t('contact')}</button>
        </div>
         </section>
+        <p></p>
        
     </div>
   )
