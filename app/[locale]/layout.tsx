@@ -16,14 +16,14 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ locale: 'ka' | 'en' }>;
+  params:{ locale:string };
 }) {
   const { locale } =await params;
 console.log(locale)
 
 const messages=await getMessages({locale});
 
-if(!routing.locales.includes(locale)){
+if(!routing.locales.includes(locale as any)){
     notFound()
 }
 
