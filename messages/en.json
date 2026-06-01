@@ -1,14 +1,19 @@
 {
     "hero":{
-        "title":"KAVTAR",
-        "subtitle":"DEVELOPMENT",
-        "desc":"Crafting multi-functional spaces where heritage meets modern living",
+        "title":"KAVTAR DEVELOPMENT",
+        "desc":"Crafting multi-functional spaces where heritage meets",
+        "modern":"modern living",
         "since":"since 2025",
         "contact":"contact"
+    },
+     "commitment":{
+        "title":"Committed to Excellence",
+        "desc":"We are committed to excellence, with a core focus on structural quality, architectural aesthetics, safety, and resident comfort. A key pillar of our philosophy is the preservation of Old Tbilisi’s unique character; we strive to ensure every project blends harmoniously with the city’s historical and cultural heritage."
     },
     "corePillars":{
 
     },
+   
     "contact":{
         "contact":"Contact Us",
         "address":"36 Khetagurovi St, Tbilisi, Georgia"
