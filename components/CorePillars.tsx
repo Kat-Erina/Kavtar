@@ -61,7 +61,7 @@ useEffect(() => {
                     {/* Left arrow — desktop only */}
                     <button
                         onClick={prev}
-                        className="hidden md:flex absolute left-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9 items-center justify-center text-gray-500 hover:border-gray-800 hover:text-gray-800 transition-colors cursor-pointer"
+                        className="hidden md:flex absolute left-3 top-1/3 -translate-y-1/2 z-10 w-9 h-9 items-center justify-center text-gray-500 hover:border-gray-800 hover:text-gray-800 transition-colors cursor-pointer"
                         aria-label="Previous slide"
                     >
                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -74,7 +74,7 @@ useEffect(() => {
                     {/* Right arrow — desktop only */}
                     <button
                         onClick={next}
-                        className="hidden md:flex absolute right-3 top-1/2 -translate-y-1/2 z-10 w-9 h-9  items-center justify-center text-gray-500 hover:border-gray-800 hover:text-gray-800 transition-colors cursor-pointer"
+                        className="hidden md:flex absolute right-3 top-1/3 -translate-y-1/2 z-10 w-9 h-9  items-center justify-center text-gray-500 hover:border-gray-800 hover:text-gray-800 transition-colors cursor-pointer"
                         aria-label="Next slide"
                     >
                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -101,6 +101,7 @@ useEffect(() => {
                                             src={images[i]}
                                             alt={pillar.title}
                                             fill
+                                            sizes="(max-width: 768px) 100vw, 90vw"
                                             className="object-cover object-[30%_center]"
                                             priority={i === 0}
                                         />
@@ -111,16 +112,25 @@ useEffect(() => {
                     </div>
                 </div>
 
-                {/* Text — updates with current slide */}
-                <div className='w-full   flex justify-center'>
-                       <div className="mt-6 px-4 text-center md:text-left md:flex md:gap-12 md:items-start w-full md:w-[90%]">
-                    <h3 className="text-[30px]  font-bold! leading-snug md:min-w-[240px] md:max-w-[280px]">
-                        {pillars[current].title}
-                    </h3>
-                    <p className="mt-3 md:mt-0 text-black leading-relaxed font-light text-[17px]">
-                        {pillars[current].desc}
-                    </p>
-                </div>
+                {/* Text slider — synced with image slider */}
+                <div className="overflow-hidden md:overflow-visible mt-6 w-full">
+                    <div
+                        className="flex transition-transform duration-500 ease-in-out"
+                        style={{ transform: `translateX(-${current * 100}%)` }}
+                    >
+                        {pillars.map((pillar, i) => (
+                            <div key={i} className="min-w-full px-4 flex justify-center">
+                                <div className="text-center md:text-left md:flex md:gap-12 md:items-start w-full md:w-[90%]">
+                                    <h3 className="text-[30px] font-bold! leading-snug md:min-w-[240px] md:max-w-[280px]">
+                                        {pillar.title}
+                                    </h3>
+                                    <p className="mt-3 md:mt-0 text-black leading-relaxed font-light text-[17px]">
+                                        {pillar.desc}
+                                    </p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
              
 
