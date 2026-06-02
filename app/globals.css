@@ -21,3 +21,7 @@ body {
 .inter-cl{
   font-family: var(--font-inter)!important;
 }
+
+button:hover{
+  cursor: pointer;
+}

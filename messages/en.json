@@ -11,9 +11,31 @@
         "desc":"We are committed to excellence, with a core focus on structural quality, architectural aesthetics, safety, and resident comfort. A key pillar of our philosophy is the preservation of Old Tbilisi’s unique character; we strive to ensure every project blends harmoniously with the city’s historical and cultural heritage."
     },
     "corePillars":{
-
+"title":"Our Core Pillars",
+"items":[
+    {
+        "title":"Strategic Planning",
+        "desc":"Planning is the foundation of every project we undertake. We conduct deep urban analysis to ensure our residential complexes are not only functional but also enrich the surrounding community."
     },
+    {
+        "title":"Innovative Development",
+        "desc":"Our development phase is where vision meets viability. We transform concepts into sophisticated living environments by integrating high-end amenities that cater to the modern lifestyle."
+    },
+    {
+        "title":"Precision Construction",
+        "desc":"Quality and safety are the hallmarks of our construction process. We utilize premium materials and engineering techniques to bring our designs to life with uncompromising durability."
+    }
    
+]},
+"projects":{
+    "items":[
+        {"name":"Avlabari", 
+    "title":"Old Tbilisi Elegance",
+"desc":"Located at 14a Tamar Skhirtladze Street, this project is designed to honor the architectural refinement and historic atmosphere of the Avlabari district. By interpreting traditional balconies and classic proportions through a modern lens, we aim to highlight the authentic charm of Old Tbilisi."},
+ {"name":"Guramishvili Ave", 
+    "title":"Modern Living",
+    "desc":"Our large-scale development at 2/4 Khevisubani Street spans 2,030 sq.m. This multi-functional residential complex is designed for a complete lifestyle, featuring a fitness center and dedicated recreational zones. With an emphasis on greenery and thoughtfully planned common areas, we provide a peaceful and harmonious environment for our residents."}   ]
+},
     "contact":{
         "contact":"Contact Us",
         "address":"36 Khetagurovi St, Tbilisi, Georgia"
