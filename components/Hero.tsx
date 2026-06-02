@@ -17,7 +17,7 @@ const t=useTranslations('hero');
         priority
         className="object-cover object-[85%_20%]"
     />
-         <section className='z-10 w-full h-102 flex flex-col items-center gap-5 text-center text-white! px-6 lg:gap-11'>
+         <section className='z-10 w-full  flex flex-col items-center gap-5 text-center text-white! px-6 lg:gap-11'>
         <h2 className='text-[39px] font-bold text-center'>{t('title')}</h2>
         <p className='text-white! w-full font-regular text-xl px-2'>
             {t('desc')} 
