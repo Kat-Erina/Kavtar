@@ -7,7 +7,7 @@ export const routing = defineRouting({
   localeDetection: false
 });
 
-export const localeNames = {
-  en: 'English',
-  ka: 'ქართული',
-};
+// export const localeNames = {
+//   en: 'English',
+//   ka: 'ქართული',
+// };
