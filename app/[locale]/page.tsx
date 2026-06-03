@@ -65,9 +65,7 @@ const page =async ({ params }: { params: Promise<{ locale: string }> }) => {
     <AnimatedComponent>
       <Commitment locale={locale}></Commitment>
     </AnimatedComponent>
-   <AnimatedComponent direction="right">
      <Projects></Projects>
-   </AnimatedComponent>
   
    <Contact></Contact>
 </main>
