@@ -41,5 +41,12 @@
     "contact":{
         "contact":"Contact Us",
         "address":"36 Khetagurovi St, Tbilisi, Georgia"
-    }
+    },
+      "metadata":{
+  "title":"Kavtar Development", 
+  "description":"Kavtar Development", 
+  "keywords":"Kavtar Development,Apartments in Tbilisi,Apartment with excellent conditions,Recreational Zone",
+  "ogTitle":"Kavtar Development",
+  "ogDescription":"Kavtar Development"
+}
 }

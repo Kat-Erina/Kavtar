@@ -48,5 +48,12 @@
   "contact": {
     "contact": "დაგვიკავშირდით",
     "address": "ქ. თბილისი, ხეთაგუროვის ქ. 36, საქართველო"
-  }
+  },
+  "metadata":{
+  "title":"Kavtar Development", 
+  "description":"Kavtar დეველოპმენტი", 
+  "keywords":"Kavtar Development,აპარტამენტები თბილისში,სპორტულ-გასართობი სივრცეები,ბინა საუკეთესო პირობებით",
+  "ogTitle":"Kavtar Development",
+  "ogDescription":"Kavtar Development"
+}
 }
