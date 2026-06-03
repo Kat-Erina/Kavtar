@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div>
 
-        {projectsArray.map((project:{name:string, title:string, desc:string}, index:number)=><Card key={index} project={project} svg={svgs[index]}></Card>)}
+        {projectsArray.map((project:{name:string, title:string, desc:string, hidden:string}, index:number)=><Card key={index} project={project} svg={svgs[index]}></Card>)}
        
     
     </div>
