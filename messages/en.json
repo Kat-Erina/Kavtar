@@ -31,10 +31,12 @@
     "items":[
         {"name":"Avlabari", 
     "title":"Old Tbilisi Elegance",
-"desc":"Located at 14a Tamar Skhirtladze Street, this project is designed to honor the architectural refinement and historic atmosphere of the Avlabari district. By interpreting traditional balconies and classic proportions through a modern lens, we aim to highlight the authentic charm of Old Tbilisi."},
+"desc":"Located at 14a Tamar Skhirtladze Street, this project is designed to honor the architectural refinement and historic atmosphere of the Avlabari district. By interpreting traditional balconies and classic proportions through a modern lens,",
+"hidden":"we aim to highlight the authentic charm of Old Tbilisi."},
  {"name":"Guramishvili Ave", 
     "title":"Modern Living",
-    "desc":"Our large-scale development at 2/4 Khevisubani Street spans 2,030 sq.m. This multi-functional residential complex is designed for a complete lifestyle, featuring a fitness center and dedicated recreational zones. With an emphasis on greenery and thoughtfully planned common areas, we provide a peaceful and harmonious environment for our residents."}   ],
+    "desc":"Our large-scale development at 2/4 Khevisubani Street spans 2,030 sq.m. This multi-functional residential complex is designed for a complete lifestyle, featuring a fitness center and dedicated recreational zones. With an emphasis on greenery",
+    "hidden":" and thoughtfully planned common areas, we provide a peaceful and harmonious environment for our residents."}   ],
 "learnMore":"Learn More",
 "showLess":"Show Less"
 },
