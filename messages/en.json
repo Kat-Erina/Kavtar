@@ -1,42 +1,41 @@
 {
     "hero":{
         "title":"KAVTAR DEVELOPMENT",
-        "desc":"Crafting multi-functional spaces where heritage meets",
-        "modern":"modern living",
+        "desc":"Heritage as part of modern living - ",
         "since":"since 2025",
         "contact":"contact"
     },
      "commitment":{
-        "title":"Committed to Excellence",
-        "desc":"We are committed to excellence, with a core focus on structural quality, architectural aesthetics, safety, and resident comfort. A key pillar of our philosophy is the preservation of Old Tbilisi’s unique character; we strive to ensure every project blends harmoniously with the city’s historical and cultural heritage."
+        "title":"Commitment to Excellence",
+        "desc":"In every project, we approach architectural aesthetics, construction quality, safety, and resident comfort with equal precision. We believe that modern development and historical heritage are not at odds - which is why every building harmoniously integrates with the city's historical and cultural legacy."
     },
     "corePillars":{
-"title":"Our Core Pillars",
+"title":"Our Advantages",
 "items":[
     {
         "title":"Strategic Planning",
-        "desc":"Planning is the foundation of every project we undertake. We conduct deep urban analysis to ensure our residential complexes are not only functional but also enrich the surrounding community."
+        "desc":"Every project begins with in-depth analysis - we study the environment, urban context, and future residents' needs to create spaces that are not only functional, but also contribute to the development of the surrounding community."
     },
     {
         "title":"Innovative Development",
-        "desc":"Our development phase is where vision meets viability. We transform concepts into sophisticated living environments by integrating high-end amenities that cater to the modern lifestyle."
+        "desc":"At the development stage, we bring vision and practical execution together. In each project, modern infrastructure and high-end services form the foundation of an environment that fully meets the rhythm of contemporary life."
     },
     {
-        "title":"Precision Construction",
-        "desc":"Quality and safety are the hallmarks of our construction process. We utilize premium materials and engineering techniques to bring our designs to life with uncompromising durability."
+        "title":"Precise and Quality Construction",
+        "desc":"Quality and safety are non-negotiable. Through the use of premium materials and modern engineering technologies, every project is built to be durable and reliable."
     }
    
 ]},
 "projects":{
     "items":[
         {"name":"Avlabari", 
-    "title":"Old Tbilisi Elegance",
-"desc":"Located at 14a Tamar Skhirtladze Street, this project is designed to honor the architectural refinement and historic atmosphere of the Avlabari district. By interpreting traditional balconies and classic proportions through a modern lens,",
-"hidden":"we aim to highlight the authentic charm of Old Tbilisi."},
- {"name":"Guramishvili Ave", 
-    "title":"Modern Living",
-    "desc":"Our large-scale development at 2/4 Khevisubani Street spans 2,030 sq.m. This multi-functional residential complex is designed for a complete lifestyle, featuring a fitness center and dedicated recreational zones. With an emphasis on greenery",
-    "hidden":" and thoughtfully planned common areas, we provide a peaceful and harmonious environment for our residents."}   ],
+    "title":"The Elegance of Old Tbilisi",
+"desc":"Located on Tamar Skhirtladze Street 14a, this project unites Avlabari's historic atmosphere with a contemporary vision. Traditional balconies, classical proportions, and architectural details are reimagined in a modern light,",
+"hidden":" while the neighborhood's distinctive charm remains unchanged."},
+ {"name":"Guramishvili", 
+    "title":"Avenue Contemporary Living",
+    "desc":"A multifunctional residential complex spanning 2,030 sq.m. at Khevisubani Street 2/4, designed for a complete everyday living experience. A fitness center, recreational zones, and thoughtfully designed common areas come together ",
+    "hidden":"within a green environment - creating a peaceful and harmonious neighborhood."}   ],
 "learnMore":"Learn More",
 "showLess":"Show Less"
 },

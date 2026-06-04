@@ -68,7 +68,7 @@ const Card = ({
               }}
               className="overflow-hidden text-center font-light transition-[max-height] duration-500 ease-in-out text-[20px] w-full lg:text-start"
             >
-              {project.desc}
+              {project.desc} 
               <span>{project.hidden}</span>
             </p>
 
