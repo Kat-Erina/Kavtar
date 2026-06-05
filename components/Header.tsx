@@ -28,7 +28,7 @@ const Header = () => {
         <Image src='/logo_2.svg' alt='logo' width={166} height={56} className='w- [166px] md:w-[279px] cursor-pointer' />
         {/* </Link> */}
         <div className='flex flex-row items-center  gap-[10px]'>
-            <p className='text-white! font-regular text-[20px] mt-1'>{currentLocale==='ka' ? 'EN' : 'ქარ'}</p>
+            <p className='text-white! font-regular text-[20px] mt-1'>{currentLocale==='ka' ? 'EN' : 'GEO'}</p>
              <button onClick={() => switchLocale(currentLocale === 'ka' ? 'en' : 'ka')} className=' relative w-6 h-6 cursor-pointer '>
             <Image src='/icons/globe.svg' alt='globe' fill/>
         </button>
