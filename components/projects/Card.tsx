@@ -8,9 +8,11 @@ import { useTranslations } from "next-intl";
 const Card = ({
   project,
   svg,
+  mappic
 }: {
   project: { name: string; title: string; desc: string; hidden: string };
   svg: string;
+  mappic:string
 }) => {
   const [expanded, setExpanded] = useState(false);
   const [collapsedHeight, setCollapsedHeight] = useState(0);
@@ -99,9 +101,9 @@ const Card = ({
           <Image
             alt="map"
             fill
-            src="/map.png"
+            src={mappic}
             className="object-cover object-[70%_center]"
-          ></Image>{" "}
+          ></Image>
         </div>
       </div>
     </section>
